@@ -42,21 +42,6 @@ The project simulates a practical business workflow involving:
 
 ---
 
-# 📂 Project Structure
-
-```bash
-📁 Data Leverager Project
-│
-├── 📄 Sales_Jan.xlsx
-├── 📄 Sales_Feb.xlsx
-├── 📄 Sales_Mar.xlsx
-├── 📄 Employee_Data.xlsx
-├── 📄 Data Leverager - Power Query Transformation Project.pbix
-└── 📄 README.md
-```
-
----
-
 # 🚀 Project Tasks & Requirements
 
 ---
@@ -66,22 +51,13 @@ The project simulates a practical business workflow involving:
 ### ✔ Load HTML Table from Web
 Imported a live HTML table from a web source such as:
 
-- Wikipedia GDP Data
 - COVID Statistics
 - Public Data Tables
 
 ### ✔ Load Multiple Excel Files from Folder
 Used:
 
-```powerquery
-Append Queries from Folder
 ```
-
-to combine:
-
-- Sales_Jan.xlsx
-- Sales_Feb.xlsx
-- Sales_Mar.xlsx
 
 ### ✔ Load Employee Dataset
 Imported employee details including:
@@ -143,16 +119,6 @@ Implemented numeric transformations including:
 - Revenue rounding to 2 decimals
 - Profit calculation
 
-### Profit Formula
-
-:contentReference[oaicite:0]{index=0}
-
-### Revenue Formatting
-
-```powerquery
-Number.Round([Revenue], 2)
-```
-
 ---
 
 # 5️⃣ Date & Time Tools
@@ -170,12 +136,6 @@ Created advanced date intelligence columns.
 - Created:
   - Fiscal Month
   - Age Calculation
-
-### Example
-
-```powerquery
-Date.Year([Order Date])
-```
 
 ---
 
@@ -247,12 +207,6 @@ Grouped data by region and calculated:
 - Total Sales
 - Average Order Value
 - Transaction Count
-
-### Aggregation Example
-
-```powerquery
-Table.Group()
-```
 
 ---
 
@@ -368,15 +322,6 @@ The workflow helps organizations:
 - Create Dashboard Visualizations
 - Publish to Power BI Service
 - Add Scheduled Refresh
-
----
-
-# 👨‍💻 Author
-
-**Data Leverager Project**
-
-> “Quality is our Motto.”  
-> *Shaping skills for scaling higher.*
 
 ---
 
