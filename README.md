@@ -53,40 +53,6 @@ Imported a live HTML table from a web source such as:
 
 - COVID Statistics
 - Public Data Tables
-
-### ✔ Load Multiple Excel Files from Folder
-Used:
-
-```
-
-### ✔ Load Employee Dataset
-Imported employee details including:
-
-- EmployeeID
-- Name
-- Department
-- Region
-- Join Date
-
----
-
-# 2️⃣ Basic Transformations
-
-Performed essential data cleaning operations:
-
-- ✅ Removed blank rows & columns
-- ✅ Promoted first row as headers
-- ✅ Renamed columns
-- ✅ Changed data types
-- ✅ Removed duplicates
-- ✅ Filtered null values
-
-### Example
-
-```powerquery
-Table.PromoteHeaders()
-```
-
 ---
 
 # 3️⃣ Text Tools
@@ -150,14 +116,6 @@ Created custom business logic using conditional columns.
 | High | ≥ 10,000 |
 | Medium | 5,000 – 9,999 |
 | Low | < 5,000 |
-
-### Conditional Formula
-
-```powerquery
-if [Sales] >= 10000 then "High"
-else if [Sales] >= 5000 then "Medium"
-else "Low"
-```
 
 ### Indexing
 
